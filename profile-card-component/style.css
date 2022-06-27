@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+section {
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: absolute;
+    top: -31.25em;
+    left: -12.5em;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: -34.375em;
+    right: -12.5em;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    width: 21em;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 6px 13px hsl(227, 10%, 46%);
+}
+
+.card-bg img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.avatar {
+    position: absolute;
+    top: 10.5vh;
+    left: 7.5em;
+    margin-bottom: 10px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 4px solid hsl(0, 0%, 100%);
+}
+
+.description {
+    width: 21em;
+    height: 20vh;
+    margin-top: 45px;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bio span {
+    color:hsl(227, 10%, 46%);
+    font-weight: 300;
+    padding: 10px;
+}
+
+.bio h1 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+.bio p {
+    color: hsl(227, 10%, 46%);
+    padding: 4px;
+}
+
+hr {
+    background-color: hsl(0, 0%, 59%);
+    width: 21em;
+    height: 0.5px;
+    border: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.stats h1 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+.stats p {
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    margin: 3px;
+    letter-spacing: 1px;
+}
