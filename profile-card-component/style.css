@@ -7,7 +7,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-section {
+body {
     background-color: hsl(185, 75%, 39%);
     position: relative;
     width: 100%;
